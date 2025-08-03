@@ -424,3 +424,20 @@ address {
 .footer-logo {
   color: var(--cloud);
 }
+
+/* 
+        Icons 
+============================ */
+
+
+/* icon-facebook {}
+
+.icon-instagram {}
+
+.icon-linkedin {}
+
+.icon-twitter {} */
+
+.icon-soc {
+  fill: var(--cloud);
+}
