@@ -167,10 +167,7 @@ span {
 .header-nav-list a::after {
   content: "";
   display: block;
-  background-color: transparent;
-  transition-property: background-color;
-  transition-duration: 180ms;
-  transition-timing-function: linear;
+  transition: background-color 150ms ease-out;
 
 }
 
@@ -297,6 +294,8 @@ address {
   height: 56px;
   display: block;
   margin: 0 auto;
+
+  transition: background-color 140ms ease-out;
 }
 
 .hero-btn:focus,
@@ -329,7 +328,6 @@ address {
 }
 
 .benefits-item {
-  /*  max-width: 264px; */
   flex: content;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
@@ -349,6 +347,52 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/*
+      Icons S2 
+---------------*/
+
+.icon-antenna {
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+
+}
+
+.icon-clock {
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
+.icon-diagram {
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
+.icon-astronaut {
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
 
 /* 
        Section 3 - Team Card
