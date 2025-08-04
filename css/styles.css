@@ -423,10 +423,6 @@ address {
 .team-card {
   background-color: var(--white);
   width: calc((100% - 72px) / 4);
-  padding-bottom: 32px;
-  /*  max-width: 264px; */
-  /* height: 380px; */
-  /* flex: content; */
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -452,7 +448,38 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
+
+.icon {
+  background-color: var(--iris);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: background-color 150ms ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon:hover {
+  background-color: var(--green);
+}
+
+.soc-link-icon-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+
+}
+
+.soc-icon-item {
+  flex-basis: calc((100% - 4 * 24px)/4);
+}
+
+
+
 
 /* 
          Section 4 - Portfolio 
@@ -550,4 +577,5 @@ address {
 
 .icon-soc {
   fill: var(--cloud);
+
 }
